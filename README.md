@@ -1,0 +1,1 @@
+This program reads the cities, their coordinates, their connections from a file and uses Dijkstra algorithm to get the shortest path from a source city to a destination city. And then draws the map and the path using StdDraw.
