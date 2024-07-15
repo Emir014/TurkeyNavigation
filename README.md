@@ -1,2 +1,74 @@
-This program reads the cities, their coordinates, their connections from a file and uses Dijkstra algorithm to get the shortest path from a source city to a destination city. And then draws the map and the path using StdDraw.
-This problem was given as the Assignment 2, Spring 2024, Bogazici University Cmpe 160 course.
+# Turkey Shortest Path Finder
+
+## Overview
+This Java program finds the shortest path between two cities in Turkey using Dijkstra's algorithm. It reads city coordinates and connections from files, computes the shortest path, and visualizes the path on a map using `StdDraw`.
+
+## Features
+- **City Management**: Read cities and their coordinates from a file.
+- **Connection Management**: Read connections between cities from a file.
+- **Shortest Path Calculation**: Uses Dijkstra's algorithm to find the shortest path between two cities.
+- **Visualization**: Displays the cities, connections, and the shortest path on a map.
+
+## Dependencies
+- `StdDraw`: A library for drawing graphics. Make sure to include `StdDraw.java` in your project directory.
+- `city_connections` file: Contains the connections between cities in the format: `City1, City2`.
+- `city_coordinates` file: Contains the city coordinates in the format: `CityName, x, y`.
+- `map.png`: An image file of the map of Turkey to visualize the cities and paths.
+
+## Setup and Compilation
+1. **Clone the Repository**:
+    ```sh
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Ensure Required Files are in Place**:
+    - `city_connections`: File containing connections between cities.
+    - `city_coordinates`: File containing coordinates of cities.
+    - `map.png`: Map image file for visualization.
+    - `StdDraw.java`: The StdDraw library file.
+
+3. **Compile the Program**:
+    Open a terminal in the project directory and run:
+    ```sh
+    javac -cp Lib/stdlib.jar -d bin src/*.java
+    ```
+
+4. **Run the Program**:
+    ```sh
+    java -cp Lib/stdlib.jar;bin ShortestPath
+    ```
+
+## Input Files Format
+- **city_connections**: Each line contains two city names separated by a comma, indicating a connection between them.
+    ```
+    City1, City2
+    City3, City4
+    ```
+
+- **city_coordinates**: Each line contains a city name and its coordinates (x, y) separated by a comma.
+    ```
+    CityName, x, y
+    Istanbul, 400, 300
+    Ankara, 500, 350
+    ```
+
+## Usage
+1. **Running the Program**:
+    - Upon running, the program will prompt for the starting city and the destination city.
+    - Enter the names of the cities as they appear in the `city_coordinates` file.
+
+2. **Example**:
+    ```
+    Enter starting city: Istanbul
+    Enter destination city: Ankara
+    ```
+
+3. **Output**:
+    - The program will output the total distance of the shortest path and the path itself.
+    - A graphical window will display the map with the cities, connections, and the shortest path highlighted.
+
+## Notes
+- Ensure the city names entered match exactly with those in the `city_coordinates` file.
+- Make sure all required files are in the same directory as the program files.
+  
