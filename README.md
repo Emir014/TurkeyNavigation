@@ -1,7 +1,7 @@
 # Turkey Shortest Path Finder
 
 ## Overview
-This Java program finds the shortest path between two cities in Turkey using Dijkstra's algorithm. It reads city coordinates and connections from files, computes the shortest path, and visualizes the path on a map using `StdDraw`.
+This project is part of Assignment 2 from the CMPE 160 Object-Oriented Programming course at Bogazici University, Spring 2024. The goal of this assignment is to implement a program that calculates the shortest path between cities and displays in on a map image.
 
 ## Features
 - **City Management**: Read cities and their coordinates from a file.
