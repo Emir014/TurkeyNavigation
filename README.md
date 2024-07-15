@@ -10,7 +10,7 @@ This project is part of Assignment 2 from the CMPE 160 Object-Oriented Programmi
 - **Visualization**: Displays the cities, connections, and the shortest path on a map.
 
 ## Dependencies
-- `StdDraw`: A library for drawing graphics. Make sure to include `StdDraw.java` in your project directory.
+- `StdDraw`: A library for drawing graphics.
 - `city_connections` file: Contains the connections between cities in the format: `City1, City2`.
 - `city_coordinates` file: Contains the city coordinates in the format: `CityName, x, y`.
 - `map.png`: An image file of the map of Turkey to visualize the cities and paths.
