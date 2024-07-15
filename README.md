@@ -49,8 +49,8 @@ This project is part of Assignment 2 from the CMPE 160 Object-Oriented Programmi
 - **city_coordinates**: Each line contains a city name and its coordinates (x, y) separated by a comma.
     ```
     CityName, x, y
-    Istanbul, 400, 300
-    Ankara, 500, 350
+    Istanbul, 416, 860
+    Ankara, 836, 652
     ```
 
 ## Usage
