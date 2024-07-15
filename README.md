@@ -26,7 +26,7 @@ This project is part of Assignment 2 from the CMPE 160 Object-Oriented Programmi
     - `city_connections`: File containing connections between cities.
     - `city_coordinates`: File containing coordinates of cities.
     - `map.png`: Map image file for visualization.
-    - `StdDraw.java`: The StdDraw library file.
+    - `Lib/stdlib.jar`: The StdDraw library file.
 
 3. **Compile the Program**:
     Open a terminal in the project directory and run:
