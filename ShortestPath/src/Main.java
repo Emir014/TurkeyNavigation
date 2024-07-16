@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.lang.StringBuilder;
-public class ShortestPath {
+public class Main {
 
   //Get the city by its name
   public static Cities getCity(String name, Cities[] cityArray) {
