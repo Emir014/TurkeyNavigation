@@ -36,7 +36,7 @@ This project is part of Assignment 2 from the CMPE 160 Object-Oriented Programmi
 
 4. **Run the Program**:
     ```sh
-    java -cp Lib/stdlib.jar;bin ShortestPath
+    java -cp Lib/stdlib.jar;bin Main
     ```
 
 ## Input Files Format
